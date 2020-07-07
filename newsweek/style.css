@@ -1,0 +1,50 @@
+/* other few css is in index.html file */
+
+nav {
+  background: red;
+}
+
+button.subscription {
+  border: none;
+  background: yellow; 
+  border-radius: 15px;
+  padding: 4px 8px;
+}
+
+button.user {
+  border: none;
+  background-color: red;
+}
+
+@media(max-width:960px) {
+  nav p{
+    display: none;
+  }
+  nav h1.display-3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width:960px) {
+  button.navbar-toggler {
+    display: none;
+  }
+}
+
+@media (min-width:560px) {
+  button.user {
+    display: none;
+  }
+}
+
+@media (max-width:560px) {
+  nav h1.display-3 {
+    font-size: 22px;
+  }
+  button.login {
+    display: none;
+  }
+  button.subscription {
+    font-size: 13px;
+  }
+}
