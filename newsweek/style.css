@@ -11,7 +11,7 @@ button.subscription {
   padding: 4px 8px;
 }
 
-button.user {
+button.user { 
   border: none;
   background-color: red;
 }
